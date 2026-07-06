@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local datasets
+src/data/gtsrb/GTSRB/
+src/data/gtsrb/GT-final_test.csv
+
+# Training artifacts and experiment outputs
+checkpoints/
+outputs/
+*.pth
+*.pt
+*.onnx
+*.log
+
+# Editor settings
+.vscode/
+.idea/
